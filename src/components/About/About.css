@@ -1,0 +1,142 @@
+.about {
+    width: 100vw;
+    height: calc(100vh-80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    background-color: #008080;
+    overflow: hidden;
+}
+
+.about h1 {
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+.about-list {
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+    display:flex;
+    align-items: center;
+    padding-right: 41%;
+    margin-bottom: 40px;   
+}
+
+.about-list-item  {
+    margin-right: 40%; 
+    padding: 3%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.about-list-item li {
+    font-size: 1.7vw;
+}
+
+ 
+.about-list-item-active {
+    background-color: #1B1212;
+    color: white;
+    font-size: 25px;
+    margin-right: 40%; 
+    padding: 3%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.about-list-item-active li {
+    font-size: 1.7vw;
+}
+
+.about-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-container-item{
+    width: 300px;
+    border-radius: 10%;
+    margin: 10px 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.about-container-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+    
+}
+
+.about-container-item h3 {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 100%;
+    align-items: center;
+    text-align: justify;
+}
+
+.about-container-item img:hover {
+     
+    opacity: 0.7;
+}
+
+@media (max-width: 998px) {
+    .about-list {
+        margin: 20px;
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
+        list-style: none;
+        display:flex;
+        align-items: center;
+        padding-right: 35%;
+        margin-bottom: 40px;
+        padding-left: 3%;   
+    }
+    .about-list-item{
+        font-size: 25px;
+        margin-right: 15%; 
+        padding: 3%;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .about-list-item li {
+        font-size: 3vw;
+    }
+
+    .about-list-item-active {
+        background-color: #1B1212;
+        color: white;
+        font-size: 25px;
+        margin-right: 25%; 
+        padding: 3%;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .about-list-item-active li {
+        font-size: 3vw;
+    }
+
+    .about-container-item h3 {
+        font-size: 30px;
+        padding-top: 25px;
+    }
+}
+
+ 
+
+ 

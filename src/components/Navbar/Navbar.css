@@ -1,0 +1,131 @@
+.Navbar {
+  background-color: #1B1212;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+} 
+
+.wrapper {
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+
+.arrow {
+  color: #008080;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar-options {
+  display: flex;
+}
+
+.Navbar-options a {
+  text-decoration: none;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 19px 16px;
+  gap: 60px;
+  font-size: 17px;
+  font-weight: 500;
+  align-items: center;
+  transition: all 0.5s ease-out;
+}
+
+.Navbar-options a:hover {
+  color: #008080;
+}
+
+.hamburger-menu {
+   padding: 1rem;
+}
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+
+.hamburger-navbar {
+  display: none;
+}
+ 
+@media(max-width:998px){
+  .Navbar{
+    height: 100px;
+  }
+
+  .wrapper {
+    padding-top: 18px;
+  }
+
+  .hamburger-menu {
+    display: block;
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: all 0.5s ease-out;
+  }
+
+   
+
+  .hamburger-menu:hover {
+    color: #008080;
+  }
+
+  .Navbar-options {
+    display: none;
+  }
+
+  .hamburger-navbar {
+    background-color: #1B1212;
+    position: fixed;
+    z-index: 3;
+    margin-left: auto;
+    margin-top: 80px;
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+  }
+
+  .Navbar-options-hamburger {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:6%;
+  }
+  
+  .Navbar-options-hamburger p {
+    margin-bottom: 5%;
+  }
+  
+  .Navbar-options-hamburger a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 28px;
+    font-weight: 500;
+    transition: all 0.5s ease-out;
+  }
+  
+  .Navbar-options-hamburger a:hover {
+    color: #008080;
+  }
+
+  
+}
