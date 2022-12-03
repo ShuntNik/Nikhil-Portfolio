@@ -12,7 +12,7 @@ export default function Home() {
             <div className="right-home">
                 <div className="wrapper-home">
                     <h2>Hi There, I'm</h2>
-                    <h1>Nikhil Sinha</h1>
+                    <h1>Nikhil</h1>
                     <h3>Front-end Developer</h3>
                 </div>
             </div>
