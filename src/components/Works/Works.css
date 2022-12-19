@@ -31,11 +31,11 @@
 }
 
 .left-arrow:hover{
-    background-color: black;
+    height: 70px;
 }
 
 .right-arrow:hover{
-    background-color: black;
+    height: 70px;
 }
 
 .works h1 {
