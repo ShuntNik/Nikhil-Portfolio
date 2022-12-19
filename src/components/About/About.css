@@ -30,6 +30,9 @@
     padding: 3%;
     cursor: pointer;
     border-radius: 10px;
+}
+
+.about-list-item:hover {
     background-color: #5F9EA0;
 }
 
