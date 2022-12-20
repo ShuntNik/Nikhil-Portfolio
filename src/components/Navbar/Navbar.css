@@ -51,6 +51,28 @@
   color: #008080;
 }
 
+.theme-box {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  height: 30px;
+  width: 70px;
+  position: relative;
+  cursor: pointer;
+}
+
+.theme-toggle {
+  display: flex;
+  color: #1B1212;
+  position: absolute;
+  top: 4px;
+  right: 8px;
+}
+
+.theme-toggle p {
+  font-size: 17px;
+  text-align: center;
+}
+
 .hamburger-menu {
    padding: 1rem;
 }
