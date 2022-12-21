@@ -3,8 +3,6 @@ import ReactDOM from "react-dom";
 import "./Navbar.css";
 import { FaBars } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
-import { MdDarkMode } from "react-icons/md";
-import { BsFillSunFill } from "react-icons/bs";
 
 export default function Navbar() {
     const [showMediaIcons, setShowMediaIcons] = React.useState(false);
@@ -30,12 +28,6 @@ export default function Navbar() {
                         <a href="#home" className="logo"><h1><span className="arrow">&lt;</span>Nikhil<span className="arrow">/&gt;</span></h1></a>
                     </div>
                     <div className="right">
-                        <div className="theme-box">
-                            <div className="theme-toggle" onClick={handleTheme} >
-                                {currentTheme===false ? <MdDarkMode size={20} /> : <BsFillSunFill size={20} />}
-                                {currentTheme===false ? <p>Dark</p> : <p>Light</p>}
-                            </div>
-                        </div>
                         <div  className="Navbar-options">
                             <p><a href="#home">Home</a></p>
                             <p><a href="#about">About</a></p>

@@ -16,3 +16,36 @@
   position: relative;
   top: 80px;
 }
+
+.theme-box {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  height: 30px;
+  width: 70px;
+  position: absolute;
+  cursor: pointer;
+  top: 25px;
+  right: 375px;
+  z-index: 2;
+  position: fixed;
+}
+
+.theme-toggle {
+  display: flex;
+  color: #1B1212;
+  position: absolute;
+  top: 4px;
+  right: 8px;
+}
+
+.theme-toggle p {
+  font-size: 17px;
+  text-align: center;
+}
+
+@media(max-width:998px){
+  .theme-box {
+    right: 100px;
+    top: 35px;
+  }
+}
