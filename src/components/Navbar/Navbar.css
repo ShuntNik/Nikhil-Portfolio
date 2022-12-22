@@ -130,3 +130,27 @@
 
   
 }
+
+#dark .Navbar {
+  background-color: #20162A;
+}
+
+#dark .Navbar-options a {
+  color: #DDCDEE;
+}
+
+#dark .Navbar-options a:hover {
+  color: #7A52A3;
+}
+
+#dark .hamburger-menu:hover {
+  color: #7A52A3;
+}
+
+#dark .hamburger-navbar {
+  background-color: #20162A;
+}
+
+#dark .Navbar-options-hamburger a:hover {
+  color: #7A52A3;
+}

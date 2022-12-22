@@ -44,3 +44,19 @@
     color: #008080;
     margin-top: 50px;
 }
+
+#dark .contact {
+    background-color: #20162A;
+}
+
+#dark .contact h1 {
+    color: #DDCDEE;
+}
+
+#dark .contact-link:hover {
+    color: #AD85D6;
+}
+
+#dark .bottom-container p {
+    color: #DDCDEE;
+}

@@ -64,3 +64,15 @@
 .wrapper-home h3 {
     font-size: 40px;
 }
+
+#dark .home{
+    background-color: #20162A;
+}
+
+#dark .imgContainer {
+    background-color: #322242;
+}
+
+#dark .wrapper-home {
+    color: #DDCDEE;
+}

@@ -149,7 +149,16 @@
         font-size: 20px;
     }
 
-    /* .left-arrow {
-        left: 100px;
-    } */
+}
+
+#dark .works h1 {
+    color: #DDCDEE;
+}
+
+#dark .works {
+    background-color: #322242;
+}
+
+#dark .works-item {
+    background-color: #AD85D6;
 }
