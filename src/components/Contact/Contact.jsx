@@ -19,7 +19,7 @@ export default function Contact() {
                 <a className="contact-link" href="mailto:nikhilks1908@gmail.com" target="_blank" rel="noopener noreferrer"><SiGmail size={42} /></a>
                 <a className="contact-link" href="https://discord.com/users/752476123375337563" target="_blank" rel="noopener noreferrer"><FaDiscord size={42} /></a>
                 </div>
-            <p>© 2022 Nikhil Kumar Sinha.</p>
+            <p>© 2023 Nikhil Kumar Sinha.</p>
             </div>
         </div>
     );
