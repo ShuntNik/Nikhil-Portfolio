@@ -93,9 +93,8 @@
 }
 
 .about-container-item img:hover {
-    width: 325px;
+    transform: scale(1.2);
     opacity: 0.7;
-    transition: all 0.3s ease-in;
 }
 
 @media (max-width: 998px) {
