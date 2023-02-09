@@ -122,6 +122,6 @@ export const resumeaboutlist = [
         id: 1,
         title: "My Resume",
         img: "assets/resume.png",
-        url: "https://drive.google.com/file/d/131J_GRjd4Ey63LsaGQFxvre-5NT4c8wB/view?usp=share_link"
+        url: "https://drive.google.com/file/d/14tqQVw4joQ0y5ndyUMwUZRZJmQkrbaBw/view?usp=share_link"
     }
 ]
